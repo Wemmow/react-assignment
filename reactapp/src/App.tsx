@@ -1,19 +1,22 @@
 import React from "react";
 import "./App.css";
-
-function App() {
+const App = () => {
   return (
     <div>
-      <header>
-        <p>Hello this is my website</p>
+      <header className="box1">
+        <h1 className=" Hi"> Hello world</h1>
       </header>
+      <header className="img1">
+        <img src="logo512.png" alt="Coolphoto" />
+      </header>
+      <div>
+        <h2><u>About me</u></h2>
+        <h3>This is "about me" section</h3>
+        <h4>Hello guys my name is Eren and I'm 19 years old</h4>
+      </div>
     </div>
   );
-}
+};
 
-//Dagens uppgift
-//1. Skapa en section som handlar om dig (bara 1 section), (About Me)
-//2. Göra lite design för en section
-//3. Om du vill gör lite typescript för att testa.
+export default App; // Ensure you have this line
 
-export default App;

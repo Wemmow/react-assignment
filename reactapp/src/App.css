@@ -1,0 +1,26 @@
+.Hi {
+  position: relative;
+  color: blue;
+  left: 275px;
+}
+
+/* Define the keyframes for the animation */
+@keyframes colorChange {
+  0% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+  100% {
+    color: blue;
+  }
+}
+
+/* Apply the animation to the .Header class */
+.img1 {
+  color: blue;
+  animation: colorChange 3s infinite;
+  left: 275px;
+}
+
