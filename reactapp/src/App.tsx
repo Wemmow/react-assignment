@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+ 
 const Furre = () => {
   return (
     <div>
@@ -10,12 +11,30 @@ const Furre = () => {
         <img src="logo192.png" alt="coolphoto" />
       </div>
       <div>
-        <button className="but">Press me</button>
+        <button  className="but">Press me</button>
       </div>
     </div>
   );
 };
+
+const NotFurkan = () => {
+  return (
+    <div>
+      <h1>Hello world</h1>
+    </div>
+  )
+}
  
+function confirm("Are you Furkan?");
+
+if(true)
+{
+  console.log(Furre);
+}
+else(false)
+{
+  console.log(NotFurkan);
+}
 
 export default Furre; // Ensure you have this line
 
