@@ -1,22 +1,22 @@
 import React from "react";
 import "./App.css";
-const App = () => {
+const Furre = () => {
   return (
     <div>
       <header className="box1">
-        <h1 className=" Hi"> Hello world</h1>
+        <h1>Hello furre modes</h1>
       </header>
-      <header className="img1">
-        <img src="logo512.png" alt="Coolphoto" />
-      </header>
+      <div className="img">
+        <img src="logo192.png" alt="coolphoto" />
+      </div>
       <div>
-        <h2><u>About me</u></h2>
-        <h3>This is "about me" section</h3>
-        <h4>Hello guys my name is Eren and I'm 19 years old</h4>
+        <button className="but">Press me</button>
       </div>
     </div>
   );
 };
+ 
 
-export default App; // Ensure you have this line
+export default Furre; // Ensure you have this line
 
+//ska göra en if function, om det är de så == så, inte == så
